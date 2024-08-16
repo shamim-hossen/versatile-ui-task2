@@ -224,6 +224,87 @@ Banner start
 Banner end
 ------------------------*/
 
+main {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 78px;
+    /* border: 2px solid red; */
+}
+
+
+/* ----------------------
+Habit start
+------------------------*/
+
+.habit {
+    max-width: 1060px;
+    margin: 0 auto;
+    border: 0;
+}
+
+.habit-content {
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.habit-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    color: white; 
+}
+
+.habit-content p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habit-card {
+    width: 230px;
+    height: 275px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-img {
+    border-radius: 50%;
+    border: 3px solid rgb(53, 53, 53);
+}
+
+.habit-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    color: white; 
+}
+
+.habit-description {
+    font-size: 14px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* ----------------------
+Habit end
+------------------------*/
+
+
+
+
+
+
 
 /* ----------------------
 Footer start
