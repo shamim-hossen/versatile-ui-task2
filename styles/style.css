@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    /* font-family: "Dancing Script", cursive; */
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header {
+    /* border: 2px solid red; */
+    /* linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%), linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.bg-color{
+        background-color: rgb(230, 83, 60);
+}
+
+/* ----------------------
+Navbar start
+------------------------*/
+.navbar {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.navbar h1 {
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    cursor: pointer;
+}
+
+.navbar .menu {
+    display: none;
+}
+
+.nav-menu {
+    max-width: 465px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+}
+
+.nav-menu .home {
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+/* ----------------------
+Navbar End  
+------------------------*/
+
+
+/* ----------------------
+Banner start
+------------------------*/
+.header-container {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    width: 520px;
+    margin-bottom: 76px;
+}
+
+.header-content  h1 {
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.header-content .shape {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 32px;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-join {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 16px 40px;
+    border-style: none;
+    border-radius: 42px;
+    cursor: pointer;
+}
+
+.btn-download {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.fa-caret-right {
+    color: white;
+    position: absolute;
+    transform: translate(14px, 19px);
+}
+
+.box-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.tutorial-container {
+    height: 96px;
+    width: 206px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    transform: translateX(-115px) translateY(-160px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -100px;
+    position: relative;
+
+
+}
+.tutorial-content h3 {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.tutorial-content p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.workout-container {
+    height: 98px;
+    width: 193px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    transform: translateX(230px) translateY(-360px);
+    padding-left: 24px;
+}
+
+.workout-container h3 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+}
+
+.workout-container p {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.65);
+}
+/* ----------------------
+Banner end
+------------------------*/
