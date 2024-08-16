@@ -19,7 +19,7 @@ header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%), linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 .bg-color{
-        background-color: rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
 }
 
 /* ----------------------
@@ -222,4 +222,94 @@ Banner start
 }
 /* ----------------------
 Banner end
+------------------------*/
+
+
+/* ----------------------
+Footer start
+------------------------*/
+
+footer {
+    background-color: rgb(35, 35, 35);
+}
+
+.footer-section {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer-content {
+    max-width: 443px;
+}
+
+.footer-content h1 {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 152px;
+}
+
+.footer-service {
+    max-width: 182px;
+}
+
+.footer-service h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px 0px 39px 0px;
+}
+
+.footer-links {
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* hr{
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+} */
+
+.footer-caption {
+    max-width: 1060px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    padding: 15px 0px 30px 0px;
+}
+
+.footer-caption p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ----------------------
+Footer end
 ------------------------*/
